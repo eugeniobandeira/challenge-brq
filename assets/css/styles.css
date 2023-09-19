@@ -1,0 +1,133 @@
+.navbar {
+    box-shadow: 20px 40px solid rgba(0, 0, 0, 0.212);
+}
+#banner{
+    min-height: 100vh;
+    position: relative;
+}
+#banner img {
+    max-height: 800px;
+    width: 100vw;
+}
+.banner-box {
+    position: absolute;
+    bottom: 30%;
+    z-index: 1;
+}
+.servico {
+    width: 200px;
+}
+
+.servico .img-item {
+    object-fit: cover;
+    height: 150px;
+}
+.servico .btn-dark {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border: none;
+}
+/*.banner-principal {
+    backdrop-filter: blur(3px) saturate(104%);
+    -webkit-backdrop-filter: blur(3px) saturate(104%);
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.banner-cor-titulo {
+    color: #324156;
+}
+.banner-cor-paragrafo {
+    color: #838383;
+}
+*/
+.btn.reservar {
+    position: absolute;
+    bottom: 0;
+}
+
+.faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.faq {
+    background-color: transparent;
+    border: 1px solid #9fa4a8;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: .3s ease;
+}
+.faq.active {
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.faq.active::before,
+.faq.active::after {
+    content: '\f075';
+    font-family: 'Font Awesome 5 free';
+    color: #2ecc71;
+    font-size: 7rem;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: .2;
+    z-index: 0;
+}
+.faq.active::before {
+    color: #3498db;
+    top: -10px;
+    left: -30px;
+    transform: rotateY(180deg);
+}
+.faq-title {
+    margin: 0 35px 0 0;
+}
+.faq-text {
+    display: none;
+    margin: 30px 0 0;
+}
+.faq.active .faq-text {
+    display: block;
+}
+.faq-toggle {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    
+}
+.faq-toggle:focus {
+    outline: 0;
+}
+.faq-toggle .fa-times {
+    display: none;
+}
+.faq.active .faq-toggle .fa-times {
+    display: block;
+}
+.faq.active .faq-toggle .fa-chevron-down {
+    display: none;
+}
+.faq.active .faq-toggle {
+    background-color: #92a194;
+    color: #fff;
+}
+
+footer .btn {
+    font-size: 30px;
+}
