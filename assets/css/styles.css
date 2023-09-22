@@ -1,32 +1,71 @@
 .navbar {
     box-shadow: 20px 40px solid rgba(0, 0, 0, 0.212);
 }
-#banner{
+.banner-box {
     min-height: 100vh;
     position: relative;
 }
 #banner img {
-    max-height: 800px;
+    min-height: 100vh;
     width: 100vw;
+    object-fit: unset;
 }
 .banner-box {
     position: absolute;
-    bottom: 30%;
+    bottom: 15%;
     z-index: 1;
 }
-.servico {
+.card-box {
+    overflow: hidden;
+}
+/*.servico {
     width: 200px;
 }
+*/
+
 
 .servico .img-item {
     object-fit: cover;
     height: 150px;
 }
 .servico .btn-dark {
-    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 60px;
     text-align: center;
     border: none;
+}
+.botao-Claro {
+    background-color: #5c8f89;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.botao-Claro:hover {
+    background-color: #4f807a;
+}
+
+.botao-Escuro {
+    background-color: #4b535f;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    text-align: center;
+    border: none;
+}
+.botao-Escuro:hover {
+    background-color: #3a4c64;
 }
 /*.banner-principal {
     backdrop-filter: blur(3px) saturate(104%);
@@ -43,6 +82,10 @@
     color: #838383;
 }
 */
+footer {
+    background: rgb(92,143,137);
+    background: radial-gradient(circle, rgba(92,143,137,1) 0%, rgba(75,83,95,1) 86%);
+}
 .btn.reservar {
     position: absolute;
     bottom: 0;
