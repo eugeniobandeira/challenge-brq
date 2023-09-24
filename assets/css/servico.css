@@ -1,0 +1,12 @@
+.servico .img-item {
+    object-fit: cover;
+    height: 150px;
+}
+.servico .btn-dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    text-align: center;
+    border: none;
+}
