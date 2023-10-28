@@ -225,3 +225,7 @@ footer button:hover {
 input:invalid {
     outline: 1px solid red;
 }
+form {
+    display: grid;
+    place-items: center;
+}
