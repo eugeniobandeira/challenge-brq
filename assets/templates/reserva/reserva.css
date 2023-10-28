@@ -30,7 +30,7 @@ body::before {
 header h1 {
     color: var(--texts-in-purple-ttulo, #fff);
     font-family: Archivo;
-    font-size: 36px;
+    font-size: 3.6rem;
     font-style: normal;
     font-weight: 700;
     line-height: 42px;
@@ -43,9 +43,9 @@ h2 {
     font-family: "Archivo", sans-serif;
 }
 header p {
-    color: #42d3ff;
+    color: teal;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
@@ -72,27 +72,27 @@ fieldset {
 }
 fieldset legend {
     border-bottom: 1px solid #E6E6F0;
-    padding-bottom: 16px;
+    padding: 16px 0;
     width: 100%;
 
     color: var(--texts-ttulos, #32264D);
     font-family: Archivo;
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 34px;
 }
 
 .input-wrapper label, .input-box {
     color: #4E4958;
-    font-size: 14px;
+    font-size: 1.2rem;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5rem;
 
     margin-bottom: 16px;
 }
 .input-wrapper label span {
     color: #9e99a8;
-    font-size: 12px;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
@@ -124,7 +124,7 @@ select {
 .input-wrapper textarea {
     height: 200px;
     width: 100%;
-    font-size: 14px;
+    font-size: 1.2rem;
     color: #3e3e47;
 }
 .checkbox-wrapper {
@@ -143,7 +143,7 @@ select {
 }
 .checkbox-wrapper label {
     color: #4E4958;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     margin: 0;
@@ -183,7 +183,7 @@ select {
 .input-box .input-box-item input {
     color: var(--texts-inputs, #6a686e);
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
