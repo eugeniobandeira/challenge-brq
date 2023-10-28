@@ -23,10 +23,7 @@ body::before {
     top: 0;
     z-index: -1;
 }
-.page {
-    width: 600px;
-    margin: auto;
-}
+
 header h1 {
     color: var(--texts-in-purple-ttulo, #fff);
     font-family: Archivo;
@@ -58,7 +55,7 @@ form {
     background: #FAFAFC;
 
     display: flex;
-    padding: 64px;
+    padding: 32px;
     flex-direction: column;
     align-items: flex-start;
     gap: 48px;
@@ -105,7 +102,7 @@ fieldset legend {
 .input-wrapper input, 
 textarea,
 select {
-    width: 100%;
+    width: 80%;
     height: 56px;
 
     border-radius: 8px;
@@ -123,7 +120,7 @@ select {
 }
 .input-wrapper textarea {
     height: 200px;
-    width: 100%;
+    width: 80%;
     font-size: 1.2rem;
     color: #3e3e47;
 }
@@ -175,7 +172,6 @@ select {
 .input-box-item {
     display: flex;
     flex-direction: column;
-    
 }
 .input-box .input-box-item label {
     margin: 24px 0 8px 0;
